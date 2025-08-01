@@ -30,4 +30,6 @@ while True:
         print("\n --Promedio--")
         for carnet, datos in estudiantes.items():
             print(f"Estudiante: {datos['Nombre']} -- Promedio {datos['Promedio']}")
+            #El bucle while solo lo regresa al menu, para evitar mucho try-except
+            #por que si no se tenia que haber aplicado para cada uno de los datos que ingresa el usuario
         break
